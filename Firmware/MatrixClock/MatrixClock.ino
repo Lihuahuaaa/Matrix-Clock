@@ -1,23 +1,3 @@
-/*********************************************************************************************************
-  HACK LABS MatrixClock                                                                                 
-  ********************************************************************************************************
-  Author: HACK实验室                                                                                     
-  YouTube ID: HACK实验室, welcome to subscribe：https://www.youtube.com/channel/UCxFY1FcIYK9d7riTvIh6eiA                                                          
-  Version 3.0 
-  HACK_CLOCK is a free download and may be used, modified, evaluated and
-  distributed without charge provided the user adheres to version hree of the GNU
-  General Public License (GPL) and does not remove the copyright notice or this
-  text.  The GPL V3 text is available on the gnu.org web site
-  作者：HACK实验室                                                                                        
-  B站ID：HACK实验室  欢迎订阅：https://space.bilibili.com/395145107                                                                             
-  微信公众号：HACK实验室，开源资料唯一发布点，定期分享开源硬件以及有价值的技术文章，欢迎关注.                        
-  Version 3.0                                                                                           
-  HACK_CLOCK是一个完全开源的硬件项目，允许用户免费下载使用，但需遵守GPL V3开源协议，协议文本可在gnu.org网站上获得.  
-
-  *如果你使用的硬件是v2.2版本，你需要注释掉#define REVERSE_HORIZONTAL和#define REVERSE_VERTICAL.
-  *如果你不想要滚动日历功能，请Ctrl+F搜索“滚动开关”，将true改为false.
-  *如果你想调节LED亮度，请Ctrl+F搜索“max7219_set_brightness(1)”，将1改为0~15之间的任意数，15最亮，0最暗.
-*********************************************************************************************************/
 
 #include <SPI.h>
 #include <Ticker.h>
